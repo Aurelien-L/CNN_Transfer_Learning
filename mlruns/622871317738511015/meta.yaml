@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/622871317738511015
+creation_time: 1748270277590
+experiment_id: '622871317738511015'
+last_update_time: 1748270277590
+lifecycle_stage: active
+name: Pneumonia detection - MobileNetV3Small (ImageDataGenerator)

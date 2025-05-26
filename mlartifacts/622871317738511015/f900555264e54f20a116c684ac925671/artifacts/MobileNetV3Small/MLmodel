@@ -1,0 +1,19 @@
+artifact_path: MobileNetV3Small
+flavors:
+  keras:
+    data: data
+    keras_backend: tensorflow
+    keras_version: 3.10.0
+    save_exported_model: false
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.keras
+    python_version: 3.10.10
+mlflow_version: 2.22.0
+model_size_bytes: 5895794
+model_uuid: f301832d8dba47b4a1410258c4cb0723
+prompts: null
+run_id: f900555264e54f20a116c684ac925671
+utc_time_created: '2025-05-26 14:37:58.400058'

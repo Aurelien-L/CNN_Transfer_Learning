@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529864401649645959/e29fe22f783042eaadad559d4f715d9b/artifacts
+end_time: 1748264129620
+entry_point_name: ''
+experiment_id: '529864401649645959'
+lifecycle_stage: active
+run_id: e29fe22f783042eaadad559d4f715d9b
+run_name: Pneumonia detection - MobileNetV3Small
+run_uuid: e29fe22f783042eaadad559d4f715d9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748264115989
+status: 3
+tags: []
+user_id: Utilisateur
