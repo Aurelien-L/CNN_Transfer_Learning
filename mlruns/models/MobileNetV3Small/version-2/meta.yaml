@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1748332128616
+current_stage: None
+description: ''
+last_updated_timestamp: 1748332128616
+name: MobileNetV3Small
+run_id: f900555264e54f20a116c684ac925671
+run_link: ''
+source: mlflow-artifacts:/622871317738511015/f900555264e54f20a116c684ac925671/artifacts/MobileNetV3Small
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/622871317738511015/f900555264e54f20a116c684ac925671/artifacts/MobileNetV3Small
+user_id: null
+version: 2
