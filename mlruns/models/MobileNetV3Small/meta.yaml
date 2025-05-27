@@ -1,6 +1,8 @@
 aliases:
-  champion: '1'
+  challenger: '2'
+  champion: '3'
+  origin: '1'
 creation_timestamp: 1748270464612
 description: ''
-last_updated_timestamp: 1748270482834
+last_updated_timestamp: 1748342305558
 name: MobileNetV3Small
