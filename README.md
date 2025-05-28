@@ -38,7 +38,7 @@ Liste des outils et modules utilisés pour le projet :
 * Scikit-learn
 * MLflow
 
-  
+
 ## Installation
 Pour utiliser ce projet, téléchargez le .zip [ici](https://github.com/Aurelien-L/CNN_Transfer_Learning/archive/refs/heads/main.zip), ou clonez le projet sur votre ordinateur avec la commande suivante : 
 ```
@@ -67,14 +67,14 @@ Le serveur sera disponible à l'adresse suivante : *http://127.0.0.1:5000/*
 ## Démarche du projet
 
 ### Choix du modèle
-
-Suite à comparatif de différents modèles pré-entraînés, les premiers essais ont été réalisé avec **DenseNet121**. Ce dernier est particulièrement adapté au cas de ce projet, étant très utilisé dans le milieu médical pour la détection de maladie pulmonaire. Il demande cependant beaucoup de puissance de calcul, et donc de temps d'exécution, ce qui m'empêchait de travailler efficacement.  
+\
+Suite à comparatif de différents modèles pré-entraînés, les premiers essais ont été réalisé avec **DenseNet121**. Ce dernier est particulièrement adapté au cas de ce projet, étant très utilisé dans le milieu médical pour la détection de maladies pulmonaires. Il demande cependant beaucoup de puissance de calcul, et donc de temps d'exécution, ce qui m'empêchait de travailler efficacement.  
 
 J'ai donc décidé de travailler avec un autre modèle *plus léger*, bien que moins adapté, par souci pédagogique, dans le but de me concentrer principalement sur l'exécution globale et la démarche de travail, plus que sur les résultats du modèle.
 
 _____________________________
 
-
+\
 Pour commencer, mon choix s'est tourné vers **MobileNetV2**, un modèle CNN léger, rapide et efficace, optimisé pour les appareils mobiles et embarqués (demandant donc beaucoup moins de ressources que des architectures comme VGG16, ResNet etc.), tout en offrant une bonne précision. Ses résultats étaient corrects, mais je voulais essayer d'obtenir mieux.
 
 J'ai ensuite essayé **MobileNetV3**, évolution de la V2, dans sa version **Small**. Cette version est principalement utilisée avec des appareils très limités comme les microcontrôleurs. Ses résultats étaient très bons. Le modèle était très rapide, léger et possédait une bonne précision. 
@@ -84,14 +84,14 @@ J'ai réalisé un dernier essai avec la version **Large** de **MobileNetV3**. Op
 
 _____________________
 
-### Prétraitement
 
+### Prétraitement
 \
 Avant l'entraînement du modèle, les images sont préalablement préparées :
 - en les filtrant pour éviter les images illisibles.
 - en les redimensionnant avec un padding pour éviter les déformations.
-- en étant prétraitées avec un ImageDataGenerator, qui permet également de faire de la Data Augmentation (rotation, zoom, miroir, etc.) pour éviter l'overfitting
-- en étant normalisées avec la fonction preprocess_input (fonction dédiée à la normalisation des données pour MobileNetV3)
+- en étant prétraitées avec un ImageDataGenerator, qui permet également de faire de la Data Augmentation (rotation, zoom, miroir, etc.) pour éviter l'overfitting.
+- en étant normalisées avec la fonction preprocess_input (fonction dédiée à la normalisation des données pour MobileNetV3).
 
 
 \
@@ -107,6 +107,6 @@ Le modèle de base est importé sans sa dernière couche afin d'ajouter celles q
 Ce dernier est évalué par taux de précision, taux de perte, rapport de classification, matrice de confusion et courbe ROC. 
 
 \
-*Les résultats des différents modèles utilisés et des différentes simulations sont visible grâce à l'historique MLflow, et le modèle peut également y être téléchargé.*
+*Les résultats des différents modèles utilisés et des différentes simulations sont visibles grâce à l'historique MLflow, et le modèle peut également y être téléchargé.*
 
-![mlflow_screen](img/mlflow.png)
+![mlflow_screen](img/mlflow.PNG)
