@@ -10,7 +10,7 @@
 
 # Détection de pneumonie par vision par ordinateur (Transfer Learning & MLflow)
 
-*Projet réalisé dans un contexte pédagogique durant la formation Développeur en Intelligence Artificielle, chez Simplon Hauts-de-France.*
+*Projet réalisé par [Aurélien Leva](https://github.com/Aurelien-L) dans un contexte pédagogique durant la formation Développeur en Intelligence Artificielle, chez Simplon Hauts-de-France.*
 
 ## Sommaire
 1. [Arborescence](#arborescence)
