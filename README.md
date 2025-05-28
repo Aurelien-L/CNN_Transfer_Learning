@@ -13,11 +13,30 @@
 *Projet réalisé dans un contexte pédagogique durant la formation Développeur en Intelligence Artificielle, chez Simplon Hauts-de-France.*
 
 ## Sommaire
-1. [Description du projet](#description-du-projet)
-2. [Outils utilisés](#outils-utilisés)
-3. [Installation](#installation)
-4. [MLflow](#mlflow)
-5. [Démarche du projet](#démarche-du-projet)
+1. [Arborescence](#arborescence)
+2. [Description du projet](#description-du-projet)
+3. [Outils utilisés](#outils-utilisés)
+4. [Installation](#installation)
+5. [MLflow](#mlflow)
+6. [Démarche du projet](#démarche-du-projet)
+
+
+## Arborescence
+
+```
+CNN_Transfer_Learning/
+├── data/                   # dossier contenant les datas
+│   ├── train/
+│   ├── val/
+│   └── test/
+├── img/                    # illustrations
+│   ├── banner.png
+│   └── mlflow.PNG
+├── Notebook_CNN_TL.ipynb   # fichier principal du projet
+├── README.md
+├── requirements.txt
+└── LICENCE
+```
 
 
 ## Description du projet
