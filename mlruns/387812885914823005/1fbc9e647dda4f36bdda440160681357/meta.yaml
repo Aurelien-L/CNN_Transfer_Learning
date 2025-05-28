@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/387812885914823005/1fbc9e647dda4f36bdda440160681357/artifacts
+end_time: 1748007767252
+entry_point_name: ''
+experiment_id: '387812885914823005'
+lifecycle_stage: active
+run_id: 1fbc9e647dda4f36bdda440160681357
+run_name: Pneumonia detection - DenseNet121
+run_uuid: 1fbc9e647dda4f36bdda440160681357
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748007755506
+status: 3
+tags: []
+user_id: Utilisateur

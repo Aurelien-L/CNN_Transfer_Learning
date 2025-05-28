@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/387812885914823005
+creation_time: 1748007755477
+experiment_id: '387812885914823005'
+last_update_time: 1748247379092
+lifecycle_stage: active
+name: Pneumonia detection - DenseNet121
+tags: {}
